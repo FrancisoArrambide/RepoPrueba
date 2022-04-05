@@ -1,0 +1,105 @@
+html {
+box-sizing: border-box;
+margin: 0 auto;
+width: 95%;
+background-color: beige;
+}
+
+div h1 {
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	color: black;
+	background-color: beige;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	front-family: sans-serif;
+}
+
+}
+
+
+.bordesRedondeados {
+	border-radius: 20px;
+}
+.imgGrande {
+	display: flex;
+	align-content: center;
+	object-fit: cover;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+	width: auto;
+	/*margin-left: 368px;*/
+margin-top: 10px;
+margin-bottom:10px ;
+}
+
+
+
+ul{
+	list-style: none;
+	font-size: 0;
+	padding: 0;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	width: 10%;
+	position: relative;
+}
+li a {
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	color: black;
+	background-color: burlywood;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+a:hover {
+	background-color: rgb(200,186,151);
+}
+ul ul {
+/*width: 100%;
+position: absolute;*/
+display: none;
+
+}
+main h2 {
+	/*padding: 50px 20px 20px 60px;
+	margin-left: 75px;*/
+	
+}
+main p{
+	/*padding: 00px 20px 20px 60px;*/
+	/*margin-left: 75px;*/	
+}
+
+.box1 {
+	/*padding: 00px 20px 20px 60px;*/
+    border:1px solid burlywood;
+    margin-left: 5px;
+}
+div p {font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	background-color: beige;
+	padding: 20px;
+	text-transform: lowercase;
+	text-decoration: none;
+	front-family: sans-serif;
+
+}
+footer {
+	text-align: center;
+
+
+}
+.footer {
+	display: flex;
+}
