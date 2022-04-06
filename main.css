@@ -5,6 +5,14 @@ width: 95%;
 background-color: beige;
 }
 
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	background-color: beige;
+
+}
 div h1 {
 	font-size: 30px;
 	text-align: center;
@@ -86,20 +94,63 @@ main p{
 }
 div p {font-size: 14px;
 	text-align: center;
-	display: inline-block;
+	display: grid;
 	color: black;
 	background-color: beige;
 	padding: 20px;
 	text-transform: lowercase;
 	text-decoration: none;
-	front-family: sans-serif;
+	font-family: sans-serif;
 
 }
+
 footer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	cursor: pointer;
 	text-align: center;
-
+	padding: 20px;
 
 }
-.footer {
-	display: flex;
+.icon {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin:20px ;
+	border-radius: 50%;
+	transition: all .8s;
+}
+.icon:hover{
+	background-color: #e60073;
+	box-shadow: 0 0 20px #e60073;
+
+}
+.icon:hover:nth-child(2){
+	background-color: #1877f2;
+	box-shadow: 0 0 20px #1877f2;
+	}
+.icon:hover:nth-child(3){
+	background-color: #25d366;
+	box-shadow: 0 0 20px #25d366;
+	}
+	.icon:hover:nth-child(4){
+	background-color: #1da1f2;
+	box-shadow: 0 0 20px #1da1f2;
+	}
+.icon i {
+	color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 1.7rem;
+}
+svg circle {
+	stroke-dasharray: 150;
+	transition: all .8s esasy-in-out;
+}
+.icon:hover circle {
+	stroke-dasharray: 220;
 }
