@@ -68,9 +68,7 @@ li a {
 	text-decoration: none;
 	font-family: sans-serif;
 }
-a:hover {
-	background-color: rgb(200,186,151);
-}
+
 ul ul {
 /*width: 100%;
 position: absolute;*/
@@ -104,7 +102,7 @@ div p {font-size: 14px;
 
 }
 
-footer {
+.footer {
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -154,3 +152,16 @@ svg circle {
 .icon:hover circle {
 	stroke-dasharray: 220;
 }
+html {
+box-sizing: border-box;
+margin: 0 auto;
+width: 95%;
+background-color: beige;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	background-color: beige;

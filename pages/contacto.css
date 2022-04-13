@@ -1,4 +1,18 @@
-html {background: beige;}
+html {box-sizing: border-box;
+      background-color: beige;}
+
+
+body { 
+	align-items: center;
+	justify-content: center;
+	background-color: beige;
+ }
+ main {
+ 	align-items: center;
+ 	justify-content: center;
+ 	margin-left: 100px;
+ 	width: 100%;
+ }
 
 div h1 {
 	fronr-size: 14px;
